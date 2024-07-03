@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+"""
+This script determines your Myers-Briggs Type Indicator (MBTI) personality type
+based on your answers to four questions. Each question corresponds to one of the
+four dichotomies in the MBTI framework:
+1. Extraversion (E) or Introversion (I)
+2. Sensing (S) or Intuition (N)
+3. Thinking (T) or Feeling (F)
+4. Judging (J) or Perceiving (P)
+
+The program validates user input, ensuring only valid choices are accepted.
+After all inputs are collected, it constructs and displays your MBTI type along
+with a brief description of your personality.
+"""
+
 def get_input(prompt, valid_inputs):
     while True:
         try:
