@@ -11,8 +11,8 @@ def main():
     player2_dice = []
 
     for i in range(3):
-      player1_dice.append(random.randint(1,6)) # 1 to 6 inclusive
-      player2_dice.append(random.randint(1,6)) # 1 to 6 inclusive
+      player1_dice.append(random.randint(2,12)) # 2 to 12 inclusive
+      player2_dice.append(random.randint(2,12)) # 2 to 12 inclusive
 
     print("Player 1 rolled", player1_dice)
     print("Player 2 rolled", player2_dice)
